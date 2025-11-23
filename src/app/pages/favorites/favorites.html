@@ -1,0 +1,12 @@
+<app-header [selectedTab]="headerTab.FAVORITES"></app-header>
+
+<!-- IMAGES SECTION -->
+@if (favoriteImages().length > 0){
+  <app-images-section [imagesList]="favoriteImages()" (imageAction)="previewImage($event)"></app-images-section>
+} @else {
+  <app-info-box
+    [title]="'favorites.no_favorites_title' | translate"
+    [subtitle]="'favorites.no_favorites_subtitle' | translate"
+    [imgSrc]="'/images/favorites/favorite.svg'">
+  </app-info-box>
+}

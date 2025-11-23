@@ -1,0 +1,27 @@
+<app-header [selectedTab]="headerTab.FAVORITES"></app-header>
+
+<!-- PREVIEW IMAGE -->
+@if (helper.checkUndefinedNull(imageRetrieved) && imageRetrieved){
+  <div class="allElementsCenter imageBox">
+    <img [src]="imageRetrieved.originalUrl" class="previewImage" />
+  </div>
+} @else {
+  <app-info-box
+    [title]="'preview_page.fav_image_not_found' | translate"
+    [subtitle]="'preview_page.fav_image_not_found_subtitle' | translate"
+    imgSrc="/images/favorites/favorite.svg">
+  </app-info-box>
+}
+
+<!-- REMOVE FROM FAVORITES -->
+@if (helper.checkUndefinedNull(imageRetrieved) && imageRetrieved){
+  <div class="allElementsCenter">
+    <app-btn-action
+      [titleBtn]="'preview_page.remove_favorite' | translate"
+      [backgroundColor]="'#FF9292'"
+      [textColor]="'#FFF'"
+      [withIconSrc]="'/images/delete-fav/white/delete.svg'"
+      (onClick)="removeFromFavorites()">
+    </app-btn-action>
+  </div>
+}

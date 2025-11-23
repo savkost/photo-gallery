@@ -1,0 +1,7 @@
+<div class="imagesSection">
+  @for (image of imagesList; track $index) {
+    <div class="imageContainer" (click)="emitImageAction(image)">
+      <img [src]="image.originalUrl" class="imgRet">
+    </div>
+  }
+</div>

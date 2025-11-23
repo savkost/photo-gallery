@@ -1,0 +1,13 @@
+<div class="header">
+
+  <!-- HEADER TABS BUTTONS -->
+  @for (tabBtn of headerTabs; track $index) {
+    <app-basic-tab
+      [titleBtn]="tabBtn.title | translate"
+      [withIconSrc]="tabBtn.iconSrc"
+      [showAsSelected]="localSelectedTab?.code === tabBtn.code"
+      (onClick)="navTo(tabBtn.route)">
+    </app-basic-tab>
+  }
+
+</div>

@@ -1,0 +1,31 @@
+.baseBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  background: var(--very-light-grey-color);
+  cursor: pointer;
+  margin: auto;
+}
+
+.baseBtn:hover {
+  background: var(--darker-light-background-color) !important;
+}
+
+.titleBtn {
+  font-size: 16px;
+  color: var(--black-text-color);
+  cursor: pointer;
+}
+
+.imageBtn {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.selectedBtn {
+  background: var(--darker-light-background-color) !important;
+  border: 2px solid var(--blue-app-color);
+}

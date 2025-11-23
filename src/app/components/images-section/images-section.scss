@@ -1,0 +1,26 @@
+.imagesSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px;
+}
+
+.imageContainer {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imgRet {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.imgRet:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+

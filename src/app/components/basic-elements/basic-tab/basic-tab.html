@@ -1,0 +1,9 @@
+<div class="baseBtn" [ngClass]="{ 'selectedBtn': showAsSelected }" (click)="emitAction()">
+
+  @if (withIconSrc){
+    <img [src]="withIconSrc" class="imageBtn" />
+  }
+
+  <label class="titleBtn">{{ titleBtn }}</label>
+
+</div>

@@ -1,0 +1,15 @@
+<app-header [selectedTab]="headerTab.LIBRARY"></app-header>
+
+<!-- IMAGES SECTION -->
+@if (imagesList().length > 0){
+  <app-images-section [imagesList]="imagesList()" (imageAction)="setFavorite($event)"></app-images-section>
+}
+
+<!-- SHOW LOADER -->
+@if (showLoading()) {
+  <div class="spinnerDiv marginTop20px">
+    <app-spinner-custom [diameter]="30"></app-spinner-custom>
+  </div>
+}
+
+

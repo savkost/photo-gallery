@@ -1,0 +1,31 @@
+.totalBox {
+  background: var(--white-app-color);
+  border-radius: 12px;
+  margin: 10%;
+  padding: 5%;
+  max-width: 950px;
+}
+
+.starterImg {
+  width: 40%;
+  margin: auto;
+  height: auto;
+}
+
+.titleBox {
+  margin-top: 20px;
+}
+
+.subtitleBox {
+  margin-top: 5px;
+}
+
+.titleLabel {
+  font-size: 20px;
+  color: var(--black-text-color);
+}
+
+.subtitleLabel {
+  font-size: 16px;
+  color: var(--grey-text-color);
+}

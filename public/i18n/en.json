@@ -1,0 +1,20 @@
+{
+  "header": {
+    "images": "Photos",
+    "favorites": "Favorites"
+  },
+  "favorites": {
+    "no_favorites_title": "No favorite images",
+    "no_favorites_subtitle": "Add images to your favorites from the Photos tab."
+  },
+  "preview_page": {
+    "remove_favorite": "Remove from favorites",
+    "fav_image_not_found": "Favorite image not found",
+    "fav_image_not_found_subtitle": "The image you are trying to view is not in your favorites.",
+    "verif_delete_message": "Are you sure you want to remove this image from your favorites?"
+  },
+  "verification_dialog": {
+    "yes": "Confirmation",
+    "no": "Cancel"
+  }
+}

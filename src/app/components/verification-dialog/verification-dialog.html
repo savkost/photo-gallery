@@ -1,0 +1,40 @@
+<div class="dialogDiv">
+
+  <div class="displayFlexAlignCenter">
+    <div class="closeButtonDiv">
+      <img src="/images/close/close.svg" class="closeIcon" (click)="closeDialog()"/>
+    </div>
+  </div>
+
+
+  <div class="allElementsCenter marginTop20px">
+    <img [src]="inputData.imageVerification" class="verifImage"/>
+  </div>
+
+  <div>
+    <p class="title">{{inputData.title | translate}}</p>
+  </div>
+
+  <div>
+    <p class="message">{{inputData.subtitle | translate}}</p>
+  </div>
+
+  <div class="allElementsCenter buttonsRow">
+    <!-- CLOSE DIALOG -->
+    <app-btn-action class="marginLeftAuto"
+      [titleBtn]="'verification_dialog.no' | translate"
+      [backgroundColor]="'#F6F6F6'"
+      [textColor]="'#212121'"
+      (onClick)="closeDialog()">
+    </app-btn-action>
+
+    <!-- CONFIRM ACTION -->
+    <app-btn-action class="marginLeft15px"
+      [titleBtn]="'verification_dialog.yes' | translate"
+      [backgroundColor]="'#FF9292'"
+      [textColor]="'#FFF'"
+      (onClick)="confirmAction()">
+    </app-btn-action>
+  </div>
+
+</div>

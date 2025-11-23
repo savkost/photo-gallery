@@ -1,0 +1,8 @@
+<div class="btnActionDiv" [style.background]="backgroundColor" (click)="emitAction()">
+
+  <label class="titleBtn" [style.color]="textColor">{{ titleBtn }}</label>
+
+  @if (withIconSrc){
+    <img [src]="withIconSrc" class="imageBtn" />
+  }
+</div>

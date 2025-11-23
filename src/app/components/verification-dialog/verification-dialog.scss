@@ -1,0 +1,45 @@
+.dialogDiv {
+  background: var(--white-app-color);
+  padding: 20px;
+}
+
+.closeButtonDiv {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--very-light-grey-color);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.closeIcon {
+  width: 20px;
+}
+
+.verifImage {
+  margin-top: 5%;
+  width: 95px;
+}
+
+.title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  color: var(--black-text-color);
+}
+
+.message {
+  margin: 0 0 20px 0;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  color: var(--black-text-color);
+}
+
+.buttonsRow {
+  margin-top: 10%;
+}
