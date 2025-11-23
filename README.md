@@ -64,6 +64,11 @@ npm install
 
 > [!NOTE]
 > After npm install, create the environments folder at src folder, and in there create the environment files as described at the section above.
+> In the src folder, you should have the following structure:
+>   src
+     - environments
+       - environment.prod.ts
+>      - environment.ts 
 
 Run the app:
 
