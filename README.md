@@ -1,9 +1,5 @@
 # Photo Library App
 
-[![Angular](https://img.shields.io/badge/Angular-20.3-red?style=flat&logo=angular&logoColor=white)](https://angular.io/) 
-[![Angular Material](https://img.shields.io/badge/Angular%20Material-20.2-blue?style=flat&logo=angular&logoColor=white)](https://material.angular.io/) 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) 
-
 An **Angular Photo Library project** for viewing amazing random images and choosing your favorites.  
 The application provides functionality to view random beautiful images and set as many as you want as favorites. You can remove images from favorites at any time.
 
@@ -15,12 +11,13 @@ The random images are being retrieved from the following:
 
 ## 🚀 Features
 
-The app simulates a **virtual Kanban board**, where each task has a status and can be moved between different levels.  
+The app simulates a **photo gallery**, where users can view beautiful random images and set them as favorite.  
 Key features include:
 
-✅ View infinite random images   
-:heart: Set images as favorites  
-🗑️ Verification and remove from favorites
+:heavy_check_mark: View infinite random images   
+:heart: Set images as favorites
+:camera: Preview selected favorite image
+🗑️ Verification and remove image from favorites
 
 ---
 
@@ -65,17 +62,11 @@ Install dependencies:
 npm install
 ```
 
-```bash
-Create the appropriate environments folder and inside there, the environment files.
-```
+> [!NOTE]
+> After npm install, create the environments folder at src folder, and in there create the environment files as described at the section above.
 
 Run the app:
 
 ```bash
 ng serve
 ```
-
-## 👨‍💻 Author
-
-Developed by **Kostoudas Savvas**.
-Feel free to connect or open issues in this repository.
