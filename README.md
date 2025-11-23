@@ -14,10 +14,10 @@ The random images are being retrieved from the following:
 The app simulates a **photo gallery**, where users can view beautiful random images and set them as favorite.  
 Key features include:
 
-:heavy_check_mark: View infinite random images   
-:heart: Set images as favorites
-:camera: Preview selected favorite image
-🗑️ Verification and remove image from favorites
+-- :heavy_check_mark: View infinite random images   
+-- :heart: Set images as favorites
+-- :camera: Preview selected favorite image
+-- 🗑️ Verification and remove image from favorites
 
 ---
 
